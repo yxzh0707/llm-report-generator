@@ -12,7 +12,7 @@ The verification script uses the Python 3 standard library. It checks the reposi
 python3 scripts/verify_results.py --check-manifest
 ```
 
-The main comparison used the same Qwen3.8-27B deployment and the same available source texts for both systems. Across eight first-run tasks, the report generator met the required content and output constraints in **8/8** runs, compared with **3/8** for native Hermes. Including four prespecified repeats per system gives **12/12** versus **4/12**. Reports had no major narrative contradictions in **3/8** and **1/8** first runs, respectively.
+The main comparison used the same Qwen3.8-27B deployment and the same available source texts for both systems. Across eight first-run tasks, the report generator met the required content and output constraints in **8/8** runs, compared with **3/8** for native Hermes. Including four prespecified repeats per system gives **12/12** versus **4/12**.
 
 These are descriptive results from four companies in two company-pair clusters. The comparison controlled evidence acquisition. Narrative evaluation used an anonymised model judge and an AI-assisted source audit without independent reader calibration. See [recorded results](results/main_results.csv) and the [reproduction notes](REPRODUCE.md).
 
