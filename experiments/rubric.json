@@ -1,0 +1,115 @@
+{
+  "version": "rubric-v1-candidate",
+  "automatic": [
+    "runtime_completed",
+    "preset_heading_presence_level_order_unique",
+    "body_citations_present_and_known",
+    "source_mode_body_coverage",
+    "selected_document_body_coverage",
+    "depth_word_range",
+    "style_observable_format",
+    "comparison_table_when_requested"
+  ],
+  "content_coverage": {
+    "review": "actual human; assistant may prepare items only",
+    "criteria_per_task": {
+      "T1": [
+        "business scope",
+        "data center/AI strategy",
+        "annual performance with correct period/unit",
+        "principal risks or excerpt gaps"
+      ],
+      "T2": [
+        "business/AI strategy",
+        "annual performance",
+        "quarterly performance",
+        "cross-document synthesis and scope distinction"
+      ],
+      "T3": [
+        "business scope",
+        "data center/AI strategy",
+        "annual performance with correct period/unit",
+        "principal risks or excerpt gaps"
+      ],
+      "T4": [
+        "business/AI strategy",
+        "annual performance",
+        "quarterly performance",
+        "segment scope and principal risks"
+      ],
+      "T5": [
+        "business scope comparison",
+        "data center/AI comparison",
+        "annual and quarterly performance",
+        "risks and period/segment comparability"
+      ],
+      "T6": [
+        "same as T5",
+        "integration of uploaded and opened web evidence"
+      ]
+    }
+  },
+  "customization": {
+    "structure": "required H2 sections in order and a comparison table when comparative",
+    "style": {
+      "formal_analytical": "tone human judgment",
+      "concise_briefing": "at least 5 bullets, each <=45 words; tone human judgment",
+      "detailed_explanatory": "at least 3 H3 explanatory headings; explanation human judgment"
+    },
+    "depth_words": {
+      "brief": [
+        250,
+        500
+      ],
+      "standard": [
+        650,
+        1400
+      ],
+      "detailed": [
+        1500,
+        2300
+      ]
+    },
+    "word_count": "regex word tokens excluding Sources and citation IDs; includes body headings/table prose"
+  },
+  "strict_success": "all automatic must_have and actual-human task/style must_have true; pending if human judgments missing",
+  "linkage": "native enhanced audit linked material lines / all material lines; heuristic, not factual support",
+  "failure_policy": "all planned condition/repetition IDs retained, including missing/failed/invalid runs; first generation and revisions separate",
+  "human_source_audit": {
+    "preselected": [
+      {
+        "condition": "T2_uploaded_only",
+        "repetition": 1
+      },
+      {
+        "condition": "T4_uploaded_only",
+        "repetition": 1
+      },
+      {
+        "condition": "T5_web_only",
+        "repetition": 1
+      },
+      {
+        "condition": "T6_hybrid",
+        "repetition": 1
+      }
+    ],
+    "claims_per_report": 5,
+    "selection": "first five material factual sentences in report order, excluding headings and Sources; prioritize quantitative or reported business facts; assistant proposes, reviewer confirms selection and deviations",
+    "labels": [
+      "supported",
+      "contradicted",
+      "insufficient"
+    ],
+    "required_fields": [
+      "exact_claim",
+      "source_ids",
+      "evidence_text_and_offsets",
+      "judgment",
+      "reason",
+      "actual_reviewer"
+    ],
+    "missing_policy": "retain absent/failed selected report, never silently replace",
+    "assistant_is_not_human_auditor": true
+  }
+}

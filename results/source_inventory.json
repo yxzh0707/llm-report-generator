@@ -1,0 +1,583 @@
+{
+  "companies": 24,
+  "unique_quarter_materials": 64,
+  "scope": "Cumulative across separate studies, not one64document comparison. All eight new complete release texts available to both arms. Seven PDFs plus one complete issuer-distributed HTML release.",
+  "documents": [
+    {
+      "company": "alphabet",
+      "fiscal_year": 2024,
+      "quarter": 1,
+      "source_url": "https://abc.xyz/files/doc_financials/2024/q1/2024q1-alphabet-earnings-release-pdf.pdf",
+      "original_document_id": "alphabet_q1",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "alphabet",
+      "fiscal_year": 2024,
+      "quarter": 2,
+      "source_url": "https://abc.xyz/files/doc_financials/2024/q2/2024q2-alphabet-earnings-release.pdf",
+      "original_document_id": "alphabet_q2",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "alphabet",
+      "fiscal_year": 2024,
+      "quarter": 3,
+      "source_url": "https://abc.xyz/files/doc_financials/2024/q3/2024q3-alphabet-earnings-release.pdf",
+      "original_document_id": "alphabet_q3",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "alphabet",
+      "fiscal_year": 2024,
+      "quarter": 4,
+      "source_url": "https://abc.xyz/files/doc_financials/2024/q4/2024q4-alphabet-earnings-release.pdf",
+      "original_document_id": "alphabet_q4",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "amazon",
+      "fiscal_year": 2024,
+      "quarter": 1,
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_financials/2024/q1/AMZN-Q1-2024-Earnings-Release.pdf",
+      "original_document_id": "amazon_q1",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "amazon",
+      "fiscal_year": 2024,
+      "quarter": 2,
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_financials/2024/q2/AMZN-Q2-2024-Earnings-Release.pdf",
+      "original_document_id": "amazon_q2",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "amazon",
+      "fiscal_year": 2024,
+      "quarter": 3,
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_financials/2024/q3/AMZN-Q3-2024-Earnings-Release.pdf",
+      "original_document_id": "amazon_q3",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "amazon",
+      "fiscal_year": 2024,
+      "quarter": 4,
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_financials/2024/q4/AMZN-Q4-2024-Earnings-Release.pdf",
+      "original_document_id": "amazon_q4",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "amd",
+      "fiscal_year": 2024,
+      "quarter": 1,
+      "source_url": "https://ir.amd.com/news-events/press-releases/detail/1192/amd-reports-first-quarter-2024-financial-results",
+      "original_document_id": "amd_q1",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "amd",
+      "fiscal_year": 2024,
+      "quarter": 2,
+      "source_url": "https://ir.amd.com/news-events/press-releases/detail/1209/amd-reports-second-quarter-2024-financial-results",
+      "original_document_id": "amd_q2",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "amd",
+      "fiscal_year": 2024,
+      "quarter": 3,
+      "source_url": "https://ir.amd.com/news-events/press-releases/detail/1224/amd-reports-third-quarter-2024-financial-results",
+      "original_document_id": "amd_q3",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "amd",
+      "fiscal_year": 2024,
+      "quarter": 4,
+      "source_url": "https://ir.amd.com/news-events/press-releases/detail/1236/amd-reports-fourth-quarter-and-full-year-2024-financial-results",
+      "original_document_id": "amd_q4",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "apple",
+      "fiscal_year": 2024,
+      "quarter": 1,
+      "source_url": "https://www.apple.com/newsroom/2024/02/apple-reports-first-quarter-results/",
+      "original_document_id": "apple_q1",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "apple",
+      "fiscal_year": 2024,
+      "quarter": 2,
+      "source_url": "https://www.apple.com/newsroom/2024/05/apple-reports-second-quarter-results/",
+      "original_document_id": "apple_q2",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "apple",
+      "fiscal_year": 2024,
+      "quarter": 3,
+      "source_url": "https://www.apple.com/newsroom/2024/08/apple-reports-third-quarter-results/",
+      "original_document_id": "apple_q3",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "apple",
+      "fiscal_year": 2024,
+      "quarter": 4,
+      "source_url": "https://www.apple.com/newsroom/2024/10/apple-reports-fourth-quarter-results/",
+      "original_document_id": "apple_q4",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "intel",
+      "fiscal_year": 2024,
+      "quarter": 1,
+      "source_url": "https://www.intc.com/news-events/press-releases/detail/1692/intel-reports-first-quarter-2024-financial-results",
+      "original_document_id": "intel_q1",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "intel",
+      "fiscal_year": 2024,
+      "quarter": 2,
+      "source_url": "https://www.intc.com/news-events/press-releases/detail/1704/intel-reports-second-quarter-2024-financial-results",
+      "original_document_id": "intel_q2",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "intel",
+      "fiscal_year": 2024,
+      "quarter": 3,
+      "source_url": "https://www.intc.com/news-events/press-releases/detail/1716/intel-reports-third-quarter-2024-financial-results",
+      "original_document_id": "intel_q3",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "intel",
+      "fiscal_year": 2024,
+      "quarter": 4,
+      "source_url": "https://www.intc.com/news-events/press-releases/detail/1726/intel-reports-fourth-quarter-and-full-year-2024-financial",
+      "original_document_id": "intel_q4",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "meta",
+      "fiscal_year": 2024,
+      "quarter": 1,
+      "source_url": "https://s21.q4cdn.com/399680738/files/doc_financials/2024/q1/Meta-03-31-2024-Exhibit-99-1_FINAL.pdf",
+      "original_document_id": "meta_q1",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "meta",
+      "fiscal_year": 2024,
+      "quarter": 2,
+      "source_url": "https://s21.q4cdn.com/399680738/files/doc_financials/2024/q2/Meta-06-30-2024-Exhibit-99-1_Final.pdf",
+      "original_document_id": "meta_q2",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "meta",
+      "fiscal_year": 2024,
+      "quarter": 3,
+      "source_url": "https://s21.q4cdn.com/399680738/files/doc_financials/2024/q3/Meta-09-30-2024-Exhibit-99-1_FINAL.pdf",
+      "original_document_id": "meta_q3",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "meta",
+      "fiscal_year": 2024,
+      "quarter": 4,
+      "source_url": "https://s21.q4cdn.com/399680738/files/doc_financials/2024/q4/Meta-12-31-2024-Exhibit-99-1-FINAL.pdf",
+      "original_document_id": "meta_q4",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "microsoft",
+      "fiscal_year": 2024,
+      "quarter": 1,
+      "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q1/press-release-webcast",
+      "original_document_id": "microsoft_q1",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "microsoft",
+      "fiscal_year": 2024,
+      "quarter": 2,
+      "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q2/press-release-webcast",
+      "original_document_id": "microsoft_q2",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "microsoft",
+      "fiscal_year": 2024,
+      "quarter": 3,
+      "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q3/press-release-webcast",
+      "original_document_id": "microsoft_q3",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "microsoft",
+      "fiscal_year": 2024,
+      "quarter": 4,
+      "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q4/press-release-webcast",
+      "original_document_id": "microsoft_q4",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "nvidia",
+      "fiscal_year": 2025,
+      "quarter": 1,
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2025",
+      "original_document_id": "nvidia_q1",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "nvidia",
+      "fiscal_year": 2025,
+      "quarter": 2,
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2025",
+      "original_document_id": "nvidia_q2",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "nvidia",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2025",
+      "original_document_id": "nvidia_q3",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "nvidia",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2025",
+      "original_document_id": "nvidia_q4",
+      "text_scope": "Fixedexcerptsfromarchivedofficialrelease;notentirePDFcontext",
+      "first_full_corpus_use": "hybrid_02"
+    },
+    {
+      "company": "cisco",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://investor.cisco.com/news/news-details/2025/CISCO-REPORTS-THIRD-QUARTER-EARNINGS/default.aspx",
+      "original_document_id": null,
+      "text_scope": "Archivedweb/PDFtext;onlinegeneratorusesopenedexcerpts",
+      "first_full_corpus_use": "heldout_acquisition_01 + acquisition_repair_01"
+    },
+    {
+      "company": "cisco",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://investor.cisco.com/news/news-details/2025/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2025-EARNINGS/",
+      "original_document_id": null,
+      "text_scope": "Archivedweb/PDFtext;onlinegeneratorusesopenedexcerpts",
+      "first_full_corpus_use": "heldout_acquisition_01 + acquisition_repair_01"
+    },
+    {
+      "company": "oracle",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://investor.oracle.com/investor-news/news-details/2025/Oracle-Announces-Fiscal-2025-Third-Quarter-Financial-Results/default.aspx",
+      "original_document_id": null,
+      "text_scope": "Archivedweb/PDFtext;onlinegeneratorusesopenedexcerpts",
+      "first_full_corpus_use": "heldout_acquisition_01 + acquisition_repair_01"
+    },
+    {
+      "company": "oracle",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://investor.oracle.com/investor-news/news-details/2025/Oracle-Announces-Fiscal-2025-Fourth-Quarter-and-Fiscal-Full-Year-Financial-Results/",
+      "original_document_id": null,
+      "text_scope": "Archivedweb/PDFtext;onlinegeneratorusesopenedexcerpts",
+      "first_full_corpus_use": "heldout_acquisition_01 + acquisition_repair_01"
+    },
+    {
+      "company": "cocacola",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1144/coca-cola-reports-third-quarter-2025-results",
+      "original_document_id": null,
+      "text_scope": "Archivedweb/PDFtext;onlinegeneratorusesopenedexcerpts",
+      "first_full_corpus_use": "heldout_acquisition_01 + acquisition_repair_01"
+    },
+    {
+      "company": "cocacola",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1151/coca-cola-reports-fourth-quarter-and-full-year-2025-results",
+      "original_document_id": null,
+      "text_scope": "Archivedweb/PDFtext;onlinegeneratorusesopenedexcerpts",
+      "first_full_corpus_use": "heldout_acquisition_01 + acquisition_repair_01"
+    },
+    {
+      "company": "walmart",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://corporate.walmart.com/content/dam/corporate/documents/newsroom/2024/11/19/walmart-releases-q3-fy25-earnings/q3-fy25-earnings-release.pdf",
+      "original_document_id": null,
+      "text_scope": "Archivedweb/PDFtext;onlinegeneratorusesopenedexcerpts",
+      "first_full_corpus_use": "heldout_acquisition_01 + acquisition_repair_01"
+    },
+    {
+      "company": "walmart",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://corporate.walmart.com/content/dam/corporate/documents/newsroom/2025/02/20/walmart-releases-q4-fy25-earnings/q4-fy25-earnings-release.pdf",
+      "original_document_id": null,
+      "text_scope": "Archivedweb/PDFtext;onlinegeneratorusesopenedexcerpts",
+      "first_full_corpus_use": "heldout_acquisition_01 + acquisition_repair_01"
+    },
+    {
+      "company": "adobe",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11905202/aiy4w5teshy5t.pdf",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "adobe",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/01215202/a54gu6y5tegrrf.pdf",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "salesforce",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://www.salesforce.com/news/press-releases/2024/12/03/salesforce-announces-third-quarter-fiscal-2025-results/?bc=OTH",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "salesforce",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://s205.q4cdn.com/626266368/files/doc_financials/2025/q4/CRM-Q4-FY25-Earnings-Press-Release-w-financials.pdf",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "broadcom",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://www.prnewswire.com/news-releases/broadcom-inc-announces-third-quarter-fiscal-year-2025-financial-results-and-quarterly-dividend-302547062.html",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "broadcom",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://www.prnewswire.com/news-releases/broadcom-inc-announces-fourth-quarter-and-fiscal-year-2025-financial-results-and-quarterly-dividend-302639606.html",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "qualcomm",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://s204.q4cdn.com/645488518/files/doc_financials/2025/q3/FY2025-3rd-Quarter-Earnings-Release.pdf",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "qualcomm",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://s204.q4cdn.com/645488518/files/doc_financials/2025/q4/FY2025-4th-Quarter-Earnings-Release.pdf",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "costco",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-Third-Quarter-and-Year-To-Date-Operating-Results-for-Fiscal-2025/default.aspx",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "costco",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Operating-Results/default.aspx",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "target",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://corporate.target.com/press/release/2025/11/target-corporation-reports-third-quarter-earnings",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "target",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://corporate.target.com/press/release/2026/03/target-corporation-reports-fourth-quarter-and-full-year-2025-earnings",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "ibm",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://newsroom.ibm.com/2025-10-22-IBM-RELEASES-THIRD-QUARTER-RESULTS",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "ibm",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://newsroom.ibm.com/2026-01-28-IBM-RELEASES-FOURTH-QUARTER-RESULTS",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "netflix",
+      "fiscal_year": 2025,
+      "quarter": 3,
+      "source_url": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q3/FINAL-Q3-25-Shareholder-Letter.pdf",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "netflix",
+      "fiscal_year": 2025,
+      "quarter": 4,
+      "source_url": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf",
+      "original_document_id": null,
+      "text_scope": "First18000characters of normalized document; complete downloaded original separately archived",
+      "first_full_corpus_use": "cross_company_01"
+    },
+    {
+      "company": "servicenow",
+      "fiscal_year": 2024,
+      "quarter": 3,
+      "source_url": "https://s205.q4cdn.com/916135447/files/doc_financials/2024/q3/Q3-2024-Earnings-Release.pdf",
+      "original_document_id": null,
+      "text_scope": "Complete extracted release text",
+      "first_full_corpus_use": "heldout_comparison_14"
+    },
+    {
+      "company": "servicenow",
+      "fiscal_year": 2024,
+      "quarter": 4,
+      "source_url": "https://s205.q4cdn.com/916135447/files/doc_financials/2024/q4/Q4-2024-Earnings-Release.pdf",
+      "original_document_id": null,
+      "text_scope": "Complete extracted release text",
+      "first_full_corpus_use": "heldout_comparison_14"
+    },
+    {
+      "company": "intuit",
+      "fiscal_year": 2024,
+      "quarter": 3,
+      "source_url": "https://investors.intuit.com/_assets/_1dd06c04c67bf383f19eaab5661c4ac7/intuit/news/2024-05-23_Intuit_Reports_Strong_Third_Quarter_Results_and_1188.pdf",
+      "original_document_id": null,
+      "text_scope": "Complete extracted release text",
+      "first_full_corpus_use": "heldout_comparison_14"
+    },
+    {
+      "company": "intuit",
+      "fiscal_year": 2024,
+      "quarter": 4,
+      "source_url": "https://investors.intuit.com/_assets/_40e3196bcf724b8e8395e85561733d79/intuit/news/2024-08-22_Intuit_Reports_Strong_Fourth_Quarter_and_Full_1202.pdf",
+      "original_document_id": null,
+      "text_scope": "Complete extracted release text",
+      "first_full_corpus_use": "heldout_comparison_14"
+    },
+    {
+      "company": "homedepot",
+      "fiscal_year": 2024,
+      "quarter": 3,
+      "source_url": "https://www.prnewswire.com/news-releases/the-home-depot-announces-third-quarter-fiscal-2024-results-updates-fiscal-2024-guidance-302301933.html",
+      "original_document_id": null,
+      "text_scope": "Complete extracted release text",
+      "first_full_corpus_use": "heldout_comparison_14"
+    },
+    {
+      "company": "homedepot",
+      "fiscal_year": 2024,
+      "quarter": 4,
+      "source_url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q4-2024-earning-release.pdf",
+      "original_document_id": null,
+      "text_scope": "Complete extracted release text",
+      "first_full_corpus_use": "heldout_comparison_14"
+    },
+    {
+      "company": "lowes",
+      "fiscal_year": 2024,
+      "quarter": 3,
+      "source_url": "https://corporate.lowes.com/sites/lowes-corp/files/2026-04/q3-2024-earnings-release.pdf",
+      "original_document_id": null,
+      "text_scope": "Complete extracted release text",
+      "first_full_corpus_use": "heldout_comparison_14"
+    },
+    {
+      "company": "lowes",
+      "fiscal_year": 2024,
+      "quarter": 4,
+      "source_url": "https://corporate.lowes.com/sites/lowes-corp/files/2025-02/q4-2024-earnings-release.pdf",
+      "original_document_id": null,
+      "text_scope": "Complete extracted release text",
+      "first_full_corpus_use": "heldout_comparison_14"
+    }
+  ]
+}

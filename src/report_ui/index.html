@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Combine documents and financial data into reports with customizable structure, style and depth.">
+  <title>Report Studio · Multi-source report workspace</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="Report Studio home"><span class="brand-icon">R<span>↗</span></span><span>Report<br><strong>Studio</strong></span></a>
+    <div class="sidebar-label">Workspace</div>
+    <button class="nav-item active" id="new-task"><span aria-hidden="true">▤</span> Generate report <span class="nav-plus">＋</span></button>
+    <div class="sidebar-label history-label">Recent runs <span id="history-count">0</span></div>
+    <div id="history" class="history"><p class="muted">No reports yet</p></div>
+    <button id="open-example" class="example-link">↗ Open saved example</button>
+    <div class="sidebar-foot"><span class="live-dot"></span> Local workspace<span>LLM-Based Report Generator</span></div>
+  </aside>
+  <main>
+    <header class="topbar"><span>Workspace <span class="slash">/</span> Report generator</span><button id="mobile-history" aria-expanded="false" aria-controls="history">Recent runs</button><span class="local-label">LOCAL <span class="live-dot"></span></span></header>
+    <section class="intro">
+      <div><div class="eyebrow">FROM SOURCES TO INSIGHTS</div><h1>Reports grounded in your sources.</h1><p>Bring your sources together. Shape the report. Trace the evidence.</p></div>
+      <span class="output-label">English workspace <span>→</span> English reports</span>
+    </section>
+    <div class="workbench">
+      <section class="setup card" aria-labelledby="setup-title">
+        <div class="card-title"><h2 id="setup-title">Configure report</h2><span class="small-label">NEW REPORT</span></div>
+        <form id="report-form">
+          <div class="form-section">
+            <label class="section-label" for="task"><span class="step">01</span> Describe your task</label>
+            <textarea id="task" maxlength="4000" required rows="5" placeholder="For example: summarize NVIDIA’s data center business and AI strategy. Distinguish annual and quarterly results, and explain evidence gaps."></textarea>
+            <div class="form-meta"><button type="button" id="fill-example" class="text-button">Use a NVIDIA briefing task ↗</button><span id="task-count">0 / 4000</span></div>
+          </div>
+          <fieldset class="form-section source-section">
+            <legend class="section-label"><span class="step">02</span> Choose your sources</legend>
+            <div class="mode-grid">
+              <label class="mode-card"><input type="radio" name="source_mode" value="uploaded_only" checked><span class="mode-symbol">▧</span><strong>Documents</strong><small>Selected files only</small></label>
+              <label class="mode-card"><input type="radio" name="source_mode" value="hybrid"><span class="mode-symbol">⊕</span><strong>Hybrid</strong><small>Documents + web</small></label>
+              <label class="mode-card"><input type="radio" name="source_mode" value="web_only"><span class="mode-symbol">◎</span><strong>Web only</strong><small>Web & financial data</small></label>
+            </div>
+            <p id="mode-help" class="help">Use only your selected documents as report evidence.</p>
+            <div id="document-controls">
+              <label class="upload-zone" id="upload-zone" for="file-input"><span class="upload-icon">↑</span><strong>Click to upload, or drop files here</strong><span>TXT / Markdown · UTF-8 · 1 MB total</span><input id="file-input" type="file" accept=".txt,.md" multiple></label>
+              <div id="uploaded-files" aria-live="polite"></div>
+              <details class="corpus-details"><summary>Use example documents <span id="selected-count">0 selected</span></summary><div id="corpus-options"></div></details>
+            </div>
+            <div id="finance-note" class="finance-note" hidden><span>Available web sources</span><p>Web search · SEC disclosures<br>Tushare · Alpha Vantage</p><small>Selected for your task; availability depends on API access.</small></div>
+          </fieldset>
+          <div class="form-section">
+            <div class="section-label"><span class="step">03</span> Customize your report</div>
+            <label class="field" for="structure">Report structure<select id="structure"><option value="standard_analysis">Standard analysis</option><option value="comparative_analysis">Comparative analysis</option></select></label>
+            <div class="field-grid">
+              <label class="field" for="style">Writing style<select id="style"><option value="formal_analytical">Formal analytical</option><option value="concise_briefing">Concise briefing</option><option value="detailed_explanatory">Detailed explanatory</option></select></label>
+              <label class="field" for="depth">Depth<select id="depth"><option value="brief">Brief</option><option value="standard">Standard</option><option value="detailed">Detailed</option></select></label>
+            </div>
+            <div class="field-grid">
+              <label class="field" for="min-words">Minimum words (optional)<input id="min-words" type="number" min="1" step="1" placeholder="No minimum"></label>
+              <label class="field" for="max-words">Maximum words (optional)<input id="max-words" type="number" min="1" step="1" placeholder="No maximum"></label>
+            </div>
+            <p class="help">Brief and detailed describe depth, not a word range. Set a word limit only if needed.</p>
+          </div>
+          <div class="submit-area">
+            <div id="form-error" class="error" role="alert" hidden></div>
+            <button type="submit" id="generate" class="primary-button">Generate report <span>↗</span></button>
+            <p id="service-note" class="help centered">Up to 8 model calls · Word limits only when requested</p>
+          </div>
+        </form>
+      </section>
+      <section class="workspace card" aria-label="Report workspace">
+        <div class="workspace-head"><div><span id="run-label" class="small-label">REPORT PREVIEW</span><h2 id="workspace-title">Report preview</h2></div><span id="run-badge" class="badge">Ready</span></div>
+        <div id="progress" class="progress" hidden aria-live="polite"><span class="spinner"></span><div><strong id="progress-title">Preparing sources</strong><p id="progress-detail">Creating the run record…</p></div><span id="elapsed">0s</span></div>
+        <div class="tabbar" role="tablist" aria-label="Report views">
+          <button class="tab active" role="tab" aria-selected="true" data-tab="report" aria-controls="panel-report">Report</button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="sources" aria-controls="panel-sources">Sources <span id="source-count">0</span></button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="checks" aria-controls="panel-checks">Quality checks</button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="activity" aria-controls="panel-activity">Activity</button>
+        </div>
+        <div id="result-note" class="result-note" hidden></div>
+        <div class="panel" id="panel-report" role="tabpanel">
+          <div id="report-empty" class="empty-state"><div class="paper-icon"><span></span><span></span><span></span></div><h3>Your next report starts here</h3><p>Describe your task and choose your sources.<br>Read the report here and follow citations to the evidence.</p><button class="secondary-button" id="empty-example">Open a real report example ↗</button></div>
+          <article id="report-content" class="report-document" hidden></article>
+        </div>
+        <div class="panel" id="panel-sources" role="tabpanel" hidden><div id="source-list" class="source-list"></div></div>
+        <div class="panel" id="panel-checks" role="tabpanel" hidden><div id="checks-content" class="checks-content"></div></div>
+        <div class="panel" id="panel-activity" role="tabpanel" hidden><div id="activity-content" class="activity-content"></div></div>
+        <footer class="workspace-footer"><span id="report-meta">Clickable citations · Traceable sources</span><div><a id="download-report" class="download-link" hidden>↓ Markdown</a><a id="download-raw" class="download-link" hidden>Raw report</a><a id="download-bundle" class="download-link" hidden>Run bundle</a></div></footer>
+      </section>
+    </div>
+    <footer class="page-footer"><span>REPORT STUDIO</span> Multiple sources · Structure / Style / Depth <span class="footer-end">Original reports, evidence and run records are retained</span></footer>
+  </main>
+  <dialog id="source-dialog"><div class="dialog-head"><span class="eyebrow">SOURCE EVIDENCE</span><button id="close-source" aria-label="Close source details">×</button></div><div id="source-detail"></div></dialog>
+</body>
+</html>

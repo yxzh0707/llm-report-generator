@@ -1,0 +1,658 @@
+[
+  {
+    "run_id": "servicenow_intuit_brief_report_system_1",
+    "arm": "report_system",
+    "task_id": "servicenow_intuit_brief",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [
+      true
+    ],
+    "narrative": true,
+    "report_sha256": "b135e50d896b05726a2ab0becf84aaa915aaa85ff35addb6686c61c15fc5faed"
+  },
+  {
+    "run_id": "servicenow_intuit_brief_hermes_agent_1",
+    "arm": "hermes_agent",
+    "task_id": "servicenow_intuit_brief",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": false,
+    "totals": [
+      false,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [
+      false
+    ],
+    "narrative": false,
+    "report_sha256": "3d0765f503688a6545356d1caba6a53358ed08cf2454372583001a48b7491b84"
+  },
+  {
+    "run_id": "servicenow_intuit_standard_report_system_1",
+    "arm": "report_system",
+    "task_id": "servicenow_intuit_standard",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [],
+    "narrative": false,
+    "report_sha256": "c623aa7af56c7d314c24b5bd94498e1f726ceaa4058fccbf2cfd18d60e775a38"
+  },
+  {
+    "run_id": "servicenow_intuit_standard_report_system_2",
+    "arm": "report_system",
+    "task_id": "servicenow_intuit_standard",
+    "repetition": 2,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [],
+    "narrative": false,
+    "report_sha256": "24cffe0f610d92b39c31d07e13a4c2ae281912deb7cdbeb8a1d56e8d985414ac"
+  },
+  {
+    "run_id": "servicenow_intuit_standard_hermes_agent_1",
+    "arm": "hermes_agent",
+    "task_id": "servicenow_intuit_standard",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      false,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [],
+    "narrative": false,
+    "report_sha256": "0c6882952ca0bd55da906569606237f55f51ad75068e60d3e73b3f7c7f27a2ea"
+  },
+  {
+    "run_id": "servicenow_intuit_standard_hermes_agent_2",
+    "arm": "hermes_agent",
+    "task_id": "servicenow_intuit_standard",
+    "repetition": 2,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      false,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [],
+    "narrative": false,
+    "report_sha256": "4d46a43286281edfb3db7f81424cefd176d68bea34c44b72227f52b9fd14cbc3"
+  },
+  {
+    "run_id": "servicenow_intuit_detailed_report_system_1",
+    "arm": "report_system",
+    "task_id": "servicenow_intuit_detailed",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [],
+    "narrative": false,
+    "report_sha256": "1f3f187a6ffe2095ad764056feab8e0a880764a750a15f28f56482f0436bf873"
+  },
+  {
+    "run_id": "servicenow_intuit_detailed_hermes_agent_1",
+    "arm": "hermes_agent",
+    "task_id": "servicenow_intuit_detailed",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      false,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [],
+    "narrative": false,
+    "report_sha256": "c5aeecd5d380454f920ba783dedfc11623c214216a86e844b9772d0d259ea70f"
+  },
+  {
+    "run_id": "servicenow_intuit_missing_report_system_1",
+    "arm": "report_system",
+    "task_id": "servicenow_intuit_missing",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "missing": [
+      true
+    ],
+    "length": [
+      true
+    ],
+    "narrative": true,
+    "report_sha256": "1b6c872a79f87ca51c4094055c2d262c774baa1b8479a47b8ef732bbdf8ea1ee"
+  },
+  {
+    "run_id": "servicenow_intuit_missing_report_system_2",
+    "arm": "report_system",
+    "task_id": "servicenow_intuit_missing",
+    "repetition": 2,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "missing": [
+      true
+    ],
+    "length": [
+      true
+    ],
+    "narrative": true,
+    "report_sha256": "c6a93d332cc76e1ddb7e7093eb872df09fb137fbccae8f5696641759bee43d0f"
+  },
+  {
+    "run_id": "servicenow_intuit_missing_hermes_agent_1",
+    "arm": "hermes_agent",
+    "task_id": "servicenow_intuit_missing",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": false,
+    "totals": [
+      false,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "missing": [
+      true
+    ],
+    "length": [
+      false
+    ],
+    "narrative": false,
+    "report_sha256": "590269c658cf7ec1d0968c464c4642c9013f4a24d98d0a02a30bf55cb9c1b5b3"
+  },
+  {
+    "run_id": "servicenow_intuit_missing_hermes_agent_2",
+    "arm": "hermes_agent",
+    "task_id": "servicenow_intuit_missing",
+    "repetition": 2,
+    "delivered": true,
+    "recorded_core": false,
+    "totals": [
+      false,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "missing": [
+      true
+    ],
+    "length": [
+      false
+    ],
+    "narrative": false,
+    "report_sha256": "2ab63cbbe28fcaedc2c143d8f9cd6a05c61ec89989e0455a30de035223816ddf"
+  },
+  {
+    "run_id": "homedepot_lowes_brief_report_system_1",
+    "arm": "report_system",
+    "task_id": "homedepot_lowes_brief",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [
+      true
+    ],
+    "narrative": false,
+    "report_sha256": "45906e9ba0af586d7732ef04bbff5e01c615df6afa2b0008ea33f7a951b3173e"
+  },
+  {
+    "run_id": "homedepot_lowes_brief_hermes_agent_1",
+    "arm": "hermes_agent",
+    "task_id": "homedepot_lowes_brief",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": false,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [
+      false
+    ],
+    "narrative": false,
+    "report_sha256": "4e529b1293ebc70ec11d8279f1818a34637affa1691576975629584b74e0de78"
+  },
+  {
+    "run_id": "homedepot_lowes_standard_report_system_1",
+    "arm": "report_system",
+    "task_id": "homedepot_lowes_standard",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [],
+    "narrative": false,
+    "report_sha256": "bb96aa1f958e378e6210f7f0116c03110bb115307110a26c844e479276d1831b"
+  },
+  {
+    "run_id": "homedepot_lowes_standard_report_system_2",
+    "arm": "report_system",
+    "task_id": "homedepot_lowes_standard",
+    "repetition": 2,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [],
+    "narrative": false,
+    "report_sha256": "aef0759450a259bf50617510251549d7c88e55e84f5bb32948a3baade2800820"
+  },
+  {
+    "run_id": "homedepot_lowes_standard_hermes_agent_1",
+    "arm": "hermes_agent",
+    "task_id": "homedepot_lowes_standard",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [],
+    "narrative": false,
+    "report_sha256": "e53eed7eff0a335917ba2764ce9fa3b880ccc1449e42bcd5afc1348d49285594"
+  },
+  {
+    "run_id": "homedepot_lowes_standard_hermes_agent_2",
+    "arm": "hermes_agent",
+    "task_id": "homedepot_lowes_standard",
+    "repetition": 2,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [],
+    "narrative": false,
+    "report_sha256": "6615b118099cd33443fd77942e6a29fa537c65bb5370563e7fcaee74c2ef2daa"
+  },
+  {
+    "run_id": "homedepot_lowes_detailed_report_system_1",
+    "arm": "report_system",
+    "task_id": "homedepot_lowes_detailed",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [],
+    "narrative": false,
+    "report_sha256": "3eeca07b7df99cbc2562bd14fe1a419353d4df5e82aea5ad2faa27823e7c5804"
+  },
+  {
+    "run_id": "homedepot_lowes_detailed_hermes_agent_1",
+    "arm": "hermes_agent",
+    "task_id": "homedepot_lowes_detailed",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "missing": [],
+    "length": [],
+    "narrative": false,
+    "report_sha256": "d2865bb6032c57b5e9570d43df23324d254f28cff981d8b8060129b8b20c2ac8"
+  },
+  {
+    "run_id": "homedepot_lowes_missing_report_system_1",
+    "arm": "report_system",
+    "task_id": "homedepot_lowes_missing",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "missing": [
+      true
+    ],
+    "length": [
+      true
+    ],
+    "narrative": true,
+    "report_sha256": "949f498e8e49bc81f7686a5fb93104f47ad70a4e5c3aac16668f6cdeda7bc4e7"
+  },
+  {
+    "run_id": "homedepot_lowes_missing_report_system_2",
+    "arm": "report_system",
+    "task_id": "homedepot_lowes_missing",
+    "repetition": 2,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "missing": [
+      true
+    ],
+    "length": [
+      true
+    ],
+    "narrative": true,
+    "report_sha256": "5bb095ea1853970adbf0fa8b50c242fd2556c689cb5b4f6cbdb3e05383545f24"
+  },
+  {
+    "run_id": "homedepot_lowes_missing_hermes_agent_1",
+    "arm": "hermes_agent",
+    "task_id": "homedepot_lowes_missing",
+    "repetition": 1,
+    "delivered": true,
+    "recorded_core": true,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "missing": [
+      true
+    ],
+    "length": [
+      true
+    ],
+    "narrative": true,
+    "report_sha256": "1881c2ae4de40c05cd3ae8e937e03c13f00b7b1eeceb7c94d26efa2b93c9f1fa"
+  },
+  {
+    "run_id": "homedepot_lowes_missing_hermes_agent_2",
+    "arm": "hermes_agent",
+    "task_id": "homedepot_lowes_missing",
+    "repetition": 2,
+    "delivered": true,
+    "recorded_core": false,
+    "totals": [
+      true,
+      true
+    ],
+    "growth": [
+      true,
+      true
+    ],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "missing": [
+      true
+    ],
+    "length": [
+      false
+    ],
+    "narrative": true,
+    "report_sha256": "b1d0d96b26b6eceedaab02dd3b30deda13f8bc8ba5f0b8059549b69ec7782def"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "purpose": "development_financial_tools",
+  "request": {
+    "task": "Write a short factual NVIDIA balance-sheet briefing. Call sec_company_facts with identifier 1045810, concept Assets, before 2025-02-27 and limit 4. Explain the latest available reporting period, total assets in USD, and any available comparable prior period. Cite the financial API snapshot in the body. Distinguish reporting end date from filing date and avoid adding duplicated filings. Use only the facts actually returned; explicitly state evidence gaps. Do not search for extra data or give investment recommendations. Keep the complete report within 250-500 words.",
+    "structure": "standard_analysis",
+    "style": "formal_analytical",
+    "depth": "brief",
+    "source_mode": "web_only"
+  },
+  "document_ids": [],
+  "queries": [],
+  "budget": {
+    "model_calls": 8,
+    "tool_calls": 3,
+    "web_search_calls": 0,
+    "embedding_calls": 0,
+    "automatic_revisions": 0,
+    "model_retries": 0,
+    "run_timeout_seconds": 480,
+    "cost_limit": 0
+  }
+}

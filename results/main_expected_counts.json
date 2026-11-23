@@ -1,0 +1,42 @@
+[
+  {
+    "scope": "first_runs",
+    "arm": "report_system",
+    "required_content_and_constraints": "8/8",
+    "quarterly_facts_and_sources": "30/30",
+    "totals_and_missing_dependencies": "16/16",
+    "raw_growth_and_missing_dependencies": "16/16",
+    "explicit_word_limit": "4/4",
+    "no_major_narrative_contradictions": "3/8"
+  },
+  {
+    "scope": "first_runs",
+    "arm": "hermes_agent",
+    "required_content_and_constraints": "3/8",
+    "quarterly_facts_and_sources": "30/30",
+    "totals_and_missing_dependencies": "12/16",
+    "raw_growth_and_missing_dependencies": "16/16",
+    "explicit_word_limit": "1/4",
+    "no_major_narrative_contradictions": "1/8"
+  },
+  {
+    "scope": "all_prespecified_runs",
+    "arm": "report_system",
+    "required_content_and_constraints": "12/12",
+    "quarterly_facts_and_sources": "44/44",
+    "totals_and_missing_dependencies": "24/24",
+    "raw_growth_and_missing_dependencies": "24/24",
+    "explicit_word_limit": "6/6",
+    "no_major_narrative_contradictions": "5/12"
+  },
+  {
+    "scope": "all_prespecified_runs",
+    "arm": "hermes_agent",
+    "required_content_and_constraints": "4/12",
+    "quarterly_facts_and_sources": "44/44",
+    "totals_and_missing_dependencies": "18/24",
+    "raw_growth_and_missing_dependencies": "24/24",
+    "explicit_word_limit": "1/6",
+    "no_major_narrative_contradictions": "2/12"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "status": "public_source_available",
+  "copied_code_folders": [
+    "src",
+    "tests",
+    "configs",
+    "experiments",
+    "analysis"
+  ],
+  "portability_modified_files": [
+    "experiments/hermes_report_worker.py",
+    "experiments/report_repair_comparison.py",
+    "analysis/check_report_ui.cjs",
+    "analysis/clarify_agent_baseline.py"
+  ],
+  "excluded": [
+    "private credentials and endpoints",
+    "internal runtime archives",
+    "third-party full texts",
+    "raw reports, prompts, trajectories and logs",
+    "upstream InFoBench files",
+    "manuscript drafts and personal rehearsal handbook"
+  ],
+  "full_generation_requires_external_authorised_runtime": true,
+  "project_license_selected": false,
+  "model_evaluation": "AI-assisted, not independently human calibrated"
+}

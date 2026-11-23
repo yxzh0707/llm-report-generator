@@ -1,0 +1,203 @@
+{
+  "version": "tasks-v1-candidate",
+  "cutoff": "2025-02-27",
+  "tasks": [
+    {
+      "id": "T1",
+      "task": "Summarise NVIDIA FY2025 Form 10-K: business scope, data center/AI strategy, annual performance and principal risks. Use only the selected annual report.",
+      "document_ids": [
+        "nvidia_fy2025_10k"
+      ],
+      "queries": [
+        "NVIDIA business AI data center platform strategy",
+        "NVIDIA fiscal 2025 annual revenue risks competition"
+      ],
+      "structure": "standard_analysis",
+      "style": "formal_analytical",
+      "depth": "standard"
+    },
+    {
+      "id": "T2",
+      "task": "Synthesize NVIDIA FY2025 Form 10-K and Q4/FY2025 CFO Commentary: business/AI strategy, annual and quarterly performance, and evidence limitations. Distinguish reportable segments from market platforms.",
+      "document_ids": [
+        "nvidia_fy2025_10k",
+        "nvidia_fy2025_q4_cfo_commentary"
+      ],
+      "queries": [
+        "NVIDIA data center business AI strategy software platforms",
+        "NVIDIA Q4 fiscal 2025 full year data center revenue growth CFO commentary"
+      ],
+      "structure": "standard_analysis",
+      "style": "formal_analytical",
+      "depth": "standard"
+    },
+    {
+      "id": "T3",
+      "task": "Summarise AMD FY2024 Form 10-K: business scope, data center/AI strategy, annual performance and principal risks. Use only the selected annual report.",
+      "document_ids": [
+        "amd_fy2024_10k"
+      ],
+      "queries": [
+        "AMD data center AI business strategy",
+        "AMD 2024 annual revenue risks competition"
+      ],
+      "structure": "standard_analysis",
+      "style": "formal_analytical",
+      "depth": "brief"
+    },
+    {
+      "id": "T4",
+      "task": "Synthesize AMD FY2024 Form 10-K and Q4/full-year financial release: business/AI strategy, annual and quarterly performance, segment scope and principal risks.",
+      "document_ids": [
+        "amd_fy2024_10k",
+        "amd_fy2024_q4_release"
+      ],
+      "queries": [
+        "AMD data center AI business strategy",
+        "AMD fourth quarter 2024 full year financial results revenue data center"
+      ],
+      "structure": "standard_analysis",
+      "style": "formal_analytical",
+      "depth": "standard"
+    },
+    {
+      "id": "T5",
+      "task": "Compare NVIDIA FY2025 (year ended January 26, 2025) and AMD FY2024 (year ended December 28, 2024) across business scope, data center/AI activities, reported annual and Q4 performance, and stated risks. Explain reporting-period and segment-definition differences. Use evidence published by February 27, 2025; identify any undated evidence as cutoff-unverified. Do not give investment recommendations.",
+      "document_ids": [
+        "nvidia_fy2025_10k",
+        "nvidia_fy2025_q4_cfo_commentary",
+        "amd_fy2024_10k",
+        "amd_fy2024_q4_release"
+      ],
+      "queries": [
+        "NVIDIA AMD business data center AI strategy risks",
+        "NVIDIA AMD fiscal year 2025 2024 full year fourth quarter revenue financial results"
+      ],
+      "structure": "comparative_analysis",
+      "style": "formal_analytical",
+      "depth": "standard"
+    },
+    {
+      "id": "T6",
+      "task": "Compare NVIDIA FY2025 (year ended January 26, 2025) and AMD FY2024 (year ended December 28, 2024) across business scope, data center/AI activities, reported annual and Q4 performance, and stated risks. Explain reporting-period and segment-definition differences. Use evidence published by February 27, 2025; identify any undated evidence as cutoff-unverified. Do not give investment recommendations.",
+      "document_ids": [
+        "nvidia_fy2025_10k",
+        "nvidia_fy2025_q4_cfo_commentary",
+        "amd_fy2024_10k",
+        "amd_fy2024_q4_release"
+      ],
+      "queries": [
+        "NVIDIA AMD business data center AI strategy risks",
+        "NVIDIA AMD fiscal year 2025 2024 full year fourth quarter revenue financial results"
+      ],
+      "structure": "comparative_analysis",
+      "style": "formal_analytical",
+      "depth": "standard"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "T1_uploaded_only",
+      "task_id": "T1",
+      "source_mode": "uploaded_only",
+      "repetitions": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "T2_uploaded_only",
+      "task_id": "T2",
+      "source_mode": "uploaded_only",
+      "repetitions": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "T3_uploaded_only",
+      "task_id": "T3",
+      "source_mode": "uploaded_only",
+      "repetitions": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "T4_uploaded_only",
+      "task_id": "T4",
+      "source_mode": "uploaded_only",
+      "repetitions": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "T5_uploaded_only",
+      "task_id": "T5",
+      "source_mode": "uploaded_only",
+      "repetitions": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "T6_hybrid",
+      "task_id": "T6",
+      "source_mode": "hybrid",
+      "repetitions": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "T5_web_only",
+      "task_id": "T5",
+      "source_mode": "web_only",
+      "repetitions": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "customization_pairs": [
+    {
+      "id": "C_structure",
+      "base_condition": "T2_uploaded_only",
+      "base_repetition": 1,
+      "change": {
+        "structure": "comparative_analysis"
+      },
+      "evidence": "reuse immutable evidence snapshots of base run; no new retrieval"
+    },
+    {
+      "id": "C_style",
+      "base_condition": "T4_uploaded_only",
+      "base_repetition": 1,
+      "change": {
+        "style": "concise_briefing"
+      },
+      "evidence": "reuse immutable evidence snapshots of base run; no new retrieval"
+    },
+    {
+      "id": "C_depth",
+      "base_condition": "T3_uploaded_only",
+      "base_repetition": 1,
+      "change": {
+        "depth": "detailed"
+      },
+      "evidence": "reuse immutable evidence snapshots of base run; no new retrieval"
+    }
+  ],
+  "main_generations": 21,
+  "paired_generations": 3,
+  "automatic_revisions": 0,
+  "status": "candidate; freeze with code/model/corpus/budget receipt before formal generation"
+}

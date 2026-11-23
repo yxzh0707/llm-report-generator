@@ -1,0 +1,5 @@
+scope,arm,required_content_and_constraints,quarterly_facts_and_sources,totals_and_missing_dependencies,raw_growth_and_missing_dependencies,explicit_word_limit,no_major_narrative_contradictions
+first_runs,report_system,8/8,30/30,16/16,16/16,4/4,3/8
+first_runs,hermes_agent,3/8,30/30,12/16,16/16,1/4,1/8
+all_prespecified_runs,report_system,12/12,44/44,24/24,24/24,6/6,5/12
+all_prespecified_runs,hermes_agent,4/12,44/44,18/24,24/24,1/6,2/12

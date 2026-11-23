@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/qinyiwei/InfoBench",
+  "commit": "557fba025e7d570464fe47d7ead8d81019d05992",
+  "paper": "https://aclanthology.org/2024.findings-acl.772/",
+  "files": {
+    "README.md": {
+      "url": "https://raw.githubusercontent.com/qinyiwei/InfoBench/557fba025e7d570464fe47d7ead8d81019d05992/README.md",
+      "sha256": "696e40139edfa61d907b856deffde56955f5ebd26fe8fe9247be0302bfe78c69"
+    },
+    "evaluation.py": {
+      "url": "https://raw.githubusercontent.com/qinyiwei/InfoBench/557fba025e7d570464fe47d7ead8d81019d05992/evaluation.py",
+      "sha256": "e18f50e526da70a45ca7cf5d8681f0ccc975db694a7cb2afbde5007abed25475"
+    }
+  }
+}

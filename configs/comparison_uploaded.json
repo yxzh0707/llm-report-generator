@@ -1,0 +1,20 @@
+{
+  "purpose": "development_integration",
+  "request": {
+    "task": "Compare NVIDIA FY2025 (year ended January 26, 2025) and AMD FY2024 (year ended December 28, 2024) across business scope, data center/AI activities, reported annual and Q4 performance, and stated risks. Explain reporting-period and segment-definition differences. Use evidence published by February 27, 2025; identify any undated evidence as cutoff-unverified. Do not give investment recommendations.",
+    "structure": "comparative_analysis",
+    "style": "formal_analytical",
+    "depth": "standard",
+    "source_mode": "uploaded_only"
+  },
+  "document_ids": [
+    "nvidia_fy2025_10k",
+    "nvidia_fy2025_q4_cfo_commentary",
+    "amd_fy2024_10k",
+    "amd_fy2024_q4_release"
+  ],
+  "queries": [
+    "NVIDIA AMD business data center AI strategy risks",
+    "NVIDIA AMD fiscal year 2025 2024 full year fourth quarter revenue financial results"
+  ]
+}

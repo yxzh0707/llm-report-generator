@@ -1,0 +1,15 @@
+{
+  "purpose": "development_integration",
+  "request": {
+    "task": "Summarise NVIDIA data center business and AI strategy, including reported FY2025 and Q4 performance. Distinguish reportable segments from market platforms and state evidence limitations.",
+    "depth": "standard"
+  },
+  "document_ids": [
+    "nvidia_fy2025_10k",
+    "nvidia_fy2025_q4_cfo_commentary"
+  ],
+  "queries": [
+    "NVIDIA data center business AI strategy software platforms",
+    "NVIDIA Q4 fiscal 2025 full year data center revenue growth CFO commentary"
+  ]
+}

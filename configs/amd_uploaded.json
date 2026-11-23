@@ -1,0 +1,18 @@
+{
+  "purpose": "development_integration",
+  "request": {
+    "task": "Synthesize AMD FY2024 Form 10-K and Q4/full-year financial release: business/AI strategy, annual and quarterly performance, segment scope and principal risks.",
+    "structure": "standard_analysis",
+    "style": "formal_analytical",
+    "depth": "standard",
+    "source_mode": "uploaded_only"
+  },
+  "document_ids": [
+    "amd_fy2024_10k",
+    "amd_fy2024_q4_release"
+  ],
+  "queries": [
+    "AMD data center AI business strategy",
+    "AMD fourth quarter 2024 full year financial results revenue data center"
+  ]
+}

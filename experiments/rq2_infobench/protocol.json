@@ -1,0 +1,21 @@
+{
+  "version": "rq2-infobench-pilot-v1",
+  "method": "InFoBench-inspired decomposed requirement evaluation; not official InFoBench benchmark scores",
+  "paper": "https://aclanthology.org/2024.findings-acl.772/",
+  "selection": "The three existing customization pairs, including their original base reports, selected for structure/style/depth coverage, not scores.",
+  "freeze": "20261020T032924986612Z",
+  "conditions": ["T2_uploaded_only", "C_structure", "T4_uploaded_only", "C_style", "T3_uploaded_only", "C_depth"],
+  "repetition": 1,
+  "judge": "Qwen3.8-27B",
+  "temperature": 0,
+  "max_output_tokens": 4000,
+  "max_calls": 12,
+  "timeout_seconds": 120,
+  "retries": 0,
+  "execution": "One fresh context per report; all decomposed questions in that report scored together. Report and source text are untrusted data. No prior judgments supplied.",
+  "adaptations": ["Local financial report tasks instead of official 500 prompts", "Report-level batch instead of upstream sequential question conversation", "JSON labels, verbatim quotes and short reasons", "UNKNOWN retained instead of forced binary choice", "Source excerpts supplied for evidence-dependent requirements", "Mechanical rules scored by code separately", "Semantic depth is an exploratory operationalization, excluded from instruction-following aggregate"],
+  "aggregation": "Semantic following lower bound = YES / all planned explicit semantic requirements; upper bound = (YES + UNKNOWN + invalid/missing) / all planned explicit semantic requirements. Both micro and equal-report macro averages; no independent-observation inference. Mechanical compliance separate. Depth diagnostic separate.",
+  "checks": "Repeat the three customized reports once, independently. On the same three customized reports remove all body content, retaining headings and Sources: content criteria should fail. These deliberately easy negative controls check gross failure only, not evaluator validity.",
+  "limits": ["Post-hoc exploratory analysis of previously generated reports", "Same model deployment name as generator, with unpinned current weights; self-preference and shared errors possible", "No human agreement validation", "Only six reports from three tasks; no statistical superiority claim", "No direct-generation baseline in this evaluator feasibility pilot", "No citation entailment precision/recall or exhaustive factual accuracy claim"],
+  "mutation_policy": "Original reports, historical reviews and manuscript results remain immutable; all new outputs in a separate session. Any transport/parse/quote failure remains recorded, without silent retry."
+}
