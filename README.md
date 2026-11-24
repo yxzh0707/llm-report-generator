@@ -2,7 +2,7 @@
 
 [中文说明](README.zh-CN.md)
 
-This repository contains the project source and recorded evaluation results for Zhang Yuxuan’s MSc dissertation. The system uses uploaded documents and web or API evidence to generate English reports with configurable structure, style and depth. It records citations, validates supported calculations and provides a local interface for inspecting and exporting reports.
+This repository contains the project source and recorded evaluation results for an MSc dissertation. The system uses uploaded documents and web or API evidence to generate English reports with configurable structure, style and depth. It records citations, validates supported calculations and provides a local interface for inspecting and exporting reports.
 
 ## Verify the recorded results
 
